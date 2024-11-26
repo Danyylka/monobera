@@ -25,7 +25,7 @@ Required `BeraConfig` fields are documented on each hook / action.
 
 ### Default BeraConfig
 
-By default actions and hooks use the `defaultBeraConfig` constant that you can import to use explicitly or customize. Hooks default to the config from `BeraJsProvider`, if the provider does not have a `configOverride` prop of type `BeraConfig` passed in, it will also use the `defaultBeraConfig` internally, and consequetially so will the hooks. Hooks can also have their config explicitly overriden in their `opts` argument of type `DefaultHookOptions`
+By default actions and hooks use the `defaultBeraConfig` constant that you can import to use explicitly or customize. Hooks default to the config from `BeraJsProvider`, if the provider does not have a `configOverride` prop of type `BeraConfig` passed in, it will also use the `defaultBeraConfig` internally, and consequently so will the hooks. Hooks can also have their config explicitly overriden in their `opts` argument of type `DefaultHookOptions`
 
 ```ts
 import { defaultBeraConfig } from "@bera/wagmi";
